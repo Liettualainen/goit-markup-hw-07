@@ -76,6 +76,10 @@ header {
     margin: 0 auto;
     padding: 0 15px;
 }
+.header, nav, .nav-main {
+    display: flex;
+    align-items: center;   
+}
 .nav__logo {
      font-family: 'Raleway', sans-serif;
      color: #000000;          
@@ -86,11 +90,6 @@ header {
     }
 .nav__web {
     color: var(--color-button);
-}
-
-.header, nav, .nav-main {
-    display: flex;
-    align-items: center;   
 }
 .nav-main {    
     margin-left: 93px;  
@@ -127,13 +126,6 @@ header {
     background: var(--color-button);
     border-radius: 2px;
 }
-
-
-/* SITE NAVIGATION */
-
-
-
-
 
 
 .nav-main__link:hover, .nav-main__link:focus{
