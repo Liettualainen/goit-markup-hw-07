@@ -1,4 +1,16 @@
 @charset "UTF-8";
+.list {
+  list-style: none;
+  /* Убираем маркеры */
+  padding: 0%;
+  margin: 0%;
+}
+
+.strong-mame {
+  display: none;
+  background-color: rgb(13, 55, 91);
+}
+
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -260,18 +272,6 @@ Add the correct display in Chrome and Safari.
 */
 summary {
   display: list-item;
-}
-
-.list {
-  list-style: none;
-  /* Убираем маркеры */
-  padding: 0%;
-  margin: 0%;
-}
-
-.strong-mame {
-  display: none;
-  background-color: rgb(13, 55, 91);
 }
 
 header {
